@@ -1,18 +1,33 @@
 {
-  "name": "@claviska/jquery-minicolors",
-  "version": "2.3.6",
-  "homepage": "https://github.com/claviska/jquery-minicolors",
-  "author": "Cory LaViska",
-  "description": "jQuery MiniColors Plugin",
-  "main": "jquery.minicolors.js",
-  "keywords": [
-    "jquery",
-    "colorpicker"
-  ],
-  "license": "MIT",
-  "peerDependencies": {
-    "jquery": ">= 1.7.x"
+  "_from": "git+https://github.com/nomos-system/jquery-minicolors.git",
+  "_id": "@claviska/jquery-minicolors@2.3.6",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/@claviska/jquery-minicolors",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/nomos-system/jquery-minicolors",
+    "rawSpec": "https://github.com/nomos-system/jquery-minicolors",
+    "saveSpec": "git+https://github.com/nomos-system/jquery-minicolors.git",
+    "fetchSpec": "https://github.com/nomos-system/jquery-minicolors.git",
+    "gitCommittish": null
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/nomos-system/jquery-minicolors.git#f5383d1623aadd3174f818ef9bb1b3ff0542b0c2",
+  "_spec": "https://github.com/nomos-system/jquery-minicolors",
+  "_where": "/Users/Richard/Documents/Projekte/Nomos/App/nomos-home",
+  "author": {
+    "name": "Cory LaViska"
+  },
+  "bugs": {
+    "url": "https://github.com/claviska/jquery-minicolors/issues"
+  },
+  "deprecated": false,
+  "description": "jQuery MiniColors Plugin",
   "devDependencies": {
     "del": "^5.1.0",
     "gulp": "^4.0.2",
@@ -20,15 +35,24 @@
     "gulp-uglify": "^3.0.2",
     "uglify-save-license": "^0.4.1"
   },
+  "homepage": "https://github.com/claviska/jquery-minicolors",
+  "keywords": [
+    "jquery",
+    "colorpicker"
+  ],
+  "license": "MIT",
+  "main": "jquery.minicolors.js",
+  "name": "@claviska/jquery-minicolors",
+  "peerDependencies": {
+    "jquery-slim": ">= 1.7.x"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/claviska/jquery-minicolors.git"
-  },
-  "bugs": {
-    "url": "https://github.com/claviska/jquery-minicolors/issues"
+    "url": "git+https://github.com/claviska/jquery-minicolors.git"
   },
   "scripts": {
     "build": "gulp",
     "watch": "gulp watch"
-  }
+  },
+  "version": "2.3.6"
 }
