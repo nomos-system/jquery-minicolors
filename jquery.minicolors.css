@@ -183,11 +183,11 @@
 
 .minicolors-grid .minicolors-picker > div {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 8px;
-  height: 8px;
-  border-radius: 8px;
+  top: -4px;
+  left: -4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
   border: solid 2px white;
   box-sizing: content-box;
 }
